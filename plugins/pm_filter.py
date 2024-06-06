@@ -1832,7 +1832,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto("https://graph.org/file/c0b9d7bc2b22042bdf959.jpg")
+                InputMediaPhoto("https://graph.org/file/da137290f11f94922d8e5.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
