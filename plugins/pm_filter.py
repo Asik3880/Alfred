@@ -1574,7 +1574,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/da137290f11f94922d8e5.jpg")
+            InputMediaPhoto("https://graph.org/file/e1d6344c582c1eac2cea9.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1832,7 +1832,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto("https://graph.org/file/da137290f11f94922d8e5.jpg")
+                InputMediaPhoto("https://graph.org/file/e1d6344c582c1eac2cea9.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -1870,7 +1870,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto("https://graph.org/file/da137290f11f94922d8e5.jpg")
+                InputMediaPhoto("https://graph.org/file/e1d6344c582c1eac2cea9.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -2046,10 +2046,51 @@ async def auto_filter(client, msg, spoll=False):
                     continue
                 else:
                     search = search + x + " "
-            search = re.sub(r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|((send|snd|giv(e)?|gib)(\sme)?)|movie(s)?|new|latest|bro|bruh|broh|helo|that|find|dubbed|link|venum|iruka|pannunga|pannungga|anuppunga|anupunga|anuppungga|anupungga|film|undo|kitti|kitty|tharu|kittumo|kittum|movie|any(one)|with\ssubtitle(s)?)", "", search, flags=re.IGNORECASE)
+            search = re.sub(r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|((send|snd|giv(e)?|gib)(\sme)?)|movie(s)?|language|panjabi|bangla|latest|review|minitv|anime|gujrati|download|bruh|broh|helo|find|dubbed|link|venum|iruka|pannunga|pannungga|anuppunga|anupunga|anuppungga|anupungga|film|undo|kitti|kitty|tharu|kittumo|kittum|kdrama|netflix|web series|link please|link plz|link pls|all seasons|all season|season all|seasons all|episodes|episode all|episodes all|seasons|webseries|movie|any(one)|with\ssubtitle(s)?)", "", search, flags=re.IGNORECASE)
             search = re.sub(r"\s+", " ", search).strip()
-            #search = search.replace("-", " ")
-            #search = search.replace(":","")
+            
+            # Normalize language names
+            language_mapping = {"hindi": "hin", "english": "eng", "tamil": "tam",
+                                "telugu": "tel", "malayalam": "mal", "kannada": "kan", "korean": "kor"}
+            search = ' '.join(language_mapping.get(word, word) for word in search.split())
+
+            # Define the characters you want to replace
+            # characters_to_replace = r"!:\-,\.&"
+
+            # Replace the characters using regular expressions
+            # search = re.sub(r'[{}]'.format(re.escape(characters_to_replace)), ' ', search)
+
+            # Replace "sXeY" with "sXX" where X and Y are single digits and not followed by another digit
+            search = re.sub(r'\bs(\d{1})e(\d{1})\b(?!d)', lambda match: 's{:02}'.format(int(match.group(1))), search)
+
+            # Replace "sX eY" with "sXX" where X and Y are single digits and "e" is not followed by another digit
+            search = re.sub(r'\bs(\d)\s+e\s*(\d)(?!\d)', lambda match: 's{:02}'.format(int(match.group(1))), search)
+
+            # Replace "soX" with "s0X" where X is a single digit
+            search = re.sub(r'\bso(\d)\b', lambda match: 's0{}'.format(match.group(1)), search)
+
+            # Replace "sX" with "sXX" where X is a single digit and not followed by "e"
+            search = re.sub(r'\bs(\d)\b(?!e)', lambda match: 's{:02}'.format(int(match.group(1))), search)
+
+            # Replace "season|session X" with "sXX" and remove any following word except 'complete', 'combine', and 'combined'
+            search = re.sub(r'\b(?:season|session)\s*(\d+)(?:\s+(?!complete|combine|combined)\w+)*\b', lambda match: 's{:02}'.format(int(match.group(1))), search)
+
+           
+            search = search.replace("'", "")
+         #  search = search.replace("/", "")
+         #  search = search.replace("_", "")   
+         #  search = search.replace(".", "")   
+            search = search.replace("!", "")
+            search = search.replace(":", "")
+            search = search.replace("-", " ")
+            search = search.replace(",", "")
+            search = search.replace("&", "")   
+            
+            search = search.replace("salar", "salaar")
+            search = search.replace("sallar", "salaar")
+            search = search.replace("dunky", "dunki")
+            search = search.replace("dunkey", "dunki")
+            search = search.replace("pathan", "pathaan")
             files, offset, total_results = await get_search_results(message.chat.id ,search, offset=0, filter=True)
             settings = await get_settings(message.chat.id)
             if not files:
