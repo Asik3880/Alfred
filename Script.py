@@ -254,8 +254,8 @@ Examples 📌📌
  <b>💫 **<a href='https://t.me/+5n5CH-ljUqczMjZl'>{file_name}</a>
 
 ════════════════════
-❤️ Join Our 🔞 Channels : @ȽⵊƝҞⵢ-ⵊⵔ
-❤️ Join Our MovieZ Channel : @ᗑⵔⴸⵊⵟⵢ-ⵊⵔ
+❤️ Join Our 🔞 Channels : @Links_io
+❤️ Join Our MovieZ Channel : @Moviez_io
 ════════════════════
 
 📌 <u>ᴘʟᴇᴀsᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪs ꜰɪʟᴇs ᴛᴏ ᴛʜᴇ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴄʟᴏsᴇ ᴛʜɪs ᴍᴇssᴀɢᴇ</u>**</b>""" 
