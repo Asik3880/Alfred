@@ -253,7 +253,10 @@ Examples 📌📌
     CAPTION = """
  <b>💫 **<a href='https://t.me/+5n5CH-ljUqczMjZl'>{file_name}</a>
 
-➥ ᴊᴏɪɴ ᴜꜱ : @Moviez_io
+════════════════════
+❤️ Join Our 🔞 Channels : @ȽⵊƝҞⵢ-ⵊⵔ
+❤️ Join Our MovieZ Channel : @ᗑⵔⴸⵊⵟⵢ-ⵊⵔ
+════════════════════
 
 📌 <u>ᴘʟᴇᴀsᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪs ꜰɪʟᴇs ᴛᴏ ᴛʜᴇ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴄʟᴏsᴇ ᴛʜɪs ᴍᴇssᴀɢᴇ</u>**</b>""" 
 
