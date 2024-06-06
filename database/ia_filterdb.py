@@ -38,7 +38,7 @@ async def save_file(media):
 
     # TODO: Find better way to get same file_id for same media to avoid duplicates
     file_id, file_ref = unpack_new_file_id(media.file_id)
-    file_name = re.sub(r"(www\S+|_|\.|CineVood|Vegamovies|BollyFlix|FilmyCab|FilmyZilla|MoviesMod|Mkvcinemas|\[@FilmOne_Movies]|\[@UnratedHD]|SkymoviesHD|Movies|\)|\()", " ", str(media.file_name))
+    file_name = re.sub(r"(www\S+|MLSBD\S+|1337xHD\S+|@Filmy_Hub4u|_|\.|KatmovieHD|𝙼𝚁✘|7HitMovies|DeadToonsIndia|\[ToonsHub]|TheMoviesBoss|themoviesboss|CineVood|Officialy|Toonworld4all|\[@Movies7x]|\[@BERLINKS45]|\[@BackupByJaggi]|\[~Jaggii1]|Vegamovies|BollyFlix|FilmyCab|FilmyZilla|MoviesMod|mkvCinemas|Filmy4wap|Skymovies|boxoffice|Villa_Original|\[ @Netflix_Villa_Original ]|HDHub4u|\[@FilmOne_Movies]|\[@UnratedHD]|\[Toonworld4all]|SkymoviesHD|Movies)", " ", str(media.file_name))
     try:
         file = Media(
             file_id=file_id,
@@ -136,7 +136,7 @@ async def get_bad_files(query, file_type=None, filter=False):
     elif ' ' not in query:
         raw_pattern = r'(\b|[\.\+\-_])' + query + r'(\b|[\.\+\-_])'
     else:
-        raw_pattern = query.replace(' ', r'.*[\s\.\+\-_]')
+        raw_pattern = query.replace(' ', r'.*[\s\.\+\-_\{\}\(\)\[\]]')
     
     try:
         regex = re.compile(raw_pattern, flags=re.IGNORECASE)
