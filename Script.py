@@ -10,7 +10,7 @@ Hᴇʀᴇ Is Tʜᴇ Mʏ Cᴏᴍᴍᴀɴᴅs Fᴏʀ Hᴇʟᴘ.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/King_Vibro'>Mᴏᴠɪᴇꜱ Kɪɴɢ</a>
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/alfredgeeks'>Alfredgeeks</a>
  📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
  📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
  ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -20,7 +20,7 @@ Hᴇʀᴇ Is Tʜᴇ Mʏ Cᴏᴍᴍᴀɴᴅs Fᴏʀ Hᴇʟᴘ.</b>"""
     SOURCE_TXT = """
 <b>❍ 𝐍𝐨𝐭𝐞: 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐀 𝐁𝐨𝐭 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬 
 ✭ I ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴏɴᴇ ʙᴏᴛ ғᴏʀ ʏᴏᴜ.
-✭ Bᴏᴛ ɪs Rᴇᴅᴇsɪɢɴ ʙʏ <a href='https://t.me/King_Vibro'>Mᴏᴠɪᴇꜱ Kɪɴɢ</a>
+✭ Bᴏᴛ ɪs Rᴇᴅᴇsɪɢɴ ʙʏ <a href='https://t.me/alfredgeeks'>Alfredgeeks</a>
 </b>"""
     MISC_TXT = """<b>Hᴇʏ {}
     
@@ -176,11 +176,11 @@ Sᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 ❗ ʀᴇǫᴜᴇꜱᴛ ᴛɪᴘꜱ : <a href='https://telegra.ph/REQUEST-TIPS-07-02'>[ᴄʟɪᴄᴋ ʜᴇʀᴇ]</a></b>"""
 
     SHORTLINK_INFO = """
-<b>⍟────[ <a href=https://t.me/Movies_King_VBot>Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ</a> ]────⍟
+<b>⍟────[ <a href=https://t.me/alfredgeeks>Hᴏᴡ ᴛᴏ Eᴀʀɴ Mᴏɴᴇʏ</a> ]────⍟
 
 ☞ sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 3𝟶𝟶 ᴍᴇᴍʙᴇʀs.
 
-☞ sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴛʜɪs <a href=https://t.me/Movies_King_VBot>⚡ᴍᴏᴠɪᴇꜱ ꜱᴇᴀʀᴄʜ ʙᴏᴛ⚡</a> ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.</a>.
+☞ sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴛʜɪs <a href=https://t.me/alfredgeeks>⚡ᴍᴏᴠɪᴇꜱ ꜱᴇᴀʀᴄʜ ʙᴏᴛ⚡</a> ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.</a>.
 
 ☞ sᴛᴇᴘ 𝟹 : ᴄʀᴇᴀᴛᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ sʜᴏʀᴛɴᴇʀ ʟɪᴋᴇ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴛʜɪs ʙᴇsᴛ sʜᴏʀᴛɴᴇʀ <a href="https://onepagelink.in/ref/Tousif2001">Oɴᴇᴘᴀɢᴇʟɪɴᴋ.</a>
 
@@ -201,7 +201,7 @@ Examples 📌📌
 /shortner_info ᴄᴏᴍᴍᴀɴᴅ
 
 ᴀɴʏ ᴅᴏᴜʙᴛꜱ ᴏʀ ɴᴏᴛ ᴄᴏɴɴᴇᴄᴛɪɴɢ? 
-<a href='https://t.me/King_Vibro'>ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ</a> ☞ @King_Vibro</b>
+<a href='https://t.me/alfredgeeks'>Alfredgeeks</a> ☞ @alfredgeeks</b>
 """
 
     REQINFO = """
@@ -251,7 +251,9 @@ Examples 📌📌
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
- <b>💫 **<a href='https://t.me/+ipp-HIbjDIo4ZTll'>{file_name}</a>
+ <b>💫 **<a href='https://t.me/+5n5CH-ljUqczMjZl'>{file_name}</a>
+
+➥ ᴊᴏɪɴ ᴜꜱ : @Moviez_io
 
 📌 <u>ᴘʟᴇᴀsᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪs ꜰɪʟᴇs ᴛᴏ ᴛʜᴇ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇ ᴀɴᴅ ᴄʟᴏsᴇ ᴛʜɪs ᴍᴇssᴀɢᴇ</u>**</b>""" 
 
@@ -307,10 +309,10 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 <b>⍟────[ Oᴡɴᴇʀ Dᴇᴛᴀɪʟꜱ ]────⍟
  
 🔹 ᴛᴇʟᴇɢʀᴀᴍ ɴᴀᴍᴇ: v k
-🔹 ᴜꜱᴇʀɴᴀᴍᴇ : @King_Vibro
-🔹 ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/King_Vibro'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-🔹 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Movies_King_Update'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-🔹 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ : <a href='https://t.me/+ipp-HIbjDIo4ZTll'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+🔹 ᴜꜱᴇʀɴᴀᴍᴇ : @alfredgeeks
+🔹 ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/alfredgeeks'>Alfredgeeks</a>
+🔹 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+tMsD6ZE6zhFkOGNl'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+🔹 ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ : <a href='https://t.me/+5n5CH-ljUqczMjZl'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
  
 •❅─────✧❅✦❅✧─────❅•</b>"""
 
