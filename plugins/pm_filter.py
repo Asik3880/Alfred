@@ -68,7 +68,7 @@ async def give_filter(client, message):
             return
         else:
             return await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention} ❤️\n\n{str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ ☞ {search}.\n\n<u>Sᴇᴀʀᴄʜ Mᴏᴠɪᴇs & Sᴇʀɪᴇs Fʀᴏᴍ Hᴇʀᴇ</u> ☟</b>",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📌 Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ", url=f"https://t.me/+ipp-HIbjDIo4ZTll")]]))
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📌 Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ", url=f"https://t.me/+5n5CH-ljUqczMjZl")]]))
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
@@ -79,7 +79,7 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
          text=f"<b>Hᴇʏ {user} 😍 ,\nYᴀʜᴀ ᴀᴀᴘ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɴʜɪ ᴋᴀʀ ꜱᴀᴋᴛᴇ ʜᴏ. ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ᴍᴇ ᴊᴀᴀᴋᴇ ᴍᴏᴠɪᴇ ᴏʀ ᴡᴇʙꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇsᴛ ᴋᴀʀᴏ\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ᴏɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ☟</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+ipp-HIbjDIo4ZTll")]]))
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+5n5CH-ljUqczMjZl")]]))
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>👻 ⚡ᴀᴜᴛᴏ ᴍᴏᴠɪᴇꜱ ꜱᴇᴀʀᴄʜ ʙᴏᴛ⚡ 𝐏𝐌_𝐌𝐒𝐆 👻\n\n📝ᴍᴇssᴀɢᴇ:- {content}\n\n👶🏻ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:- {message.from_user.mention}\n\n🃏ᴜꜱᴇʀ ɪᴅ:- {user_id}</b>"
@@ -263,7 +263,7 @@ async def advantage_spoll_choker(bot, query):
                 if NO_RESULTS_MSG:
                     await bot.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, movie)))
                 btn = [[
-                    InlineKeyboardButton("🔰 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ᴛᴏ ᴀᴅᴍɪɴ 🔰", url=f"https://t.me/+Un7EiBelcvQyYTM1")
+                    InlineKeyboardButton("🔰 ʀᴇǫᴜᴇꜱᴛ ᴛᴏ ᴀᴅᴍɪɴ 🔰", url=f"https://t.me/+jv7OWMJRKoA1ODk1")
                 ]]
                 k = await query.message.edit(script.MVE_NT_FND, reply_markup=InlineKeyboardMarkup(btn))
                 await asyncio.sleep(10)
@@ -1567,14 +1567,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('✉ Cᴏɴᴛᴀᴄᴛ', url='https://t.me/King_Vibro'),
+            InlineKeyboardButton('✉ Cᴏɴᴛᴀᴄᴛ', url='https://t.me/alfredgeeks'),
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/c0b9d7bc2b22042bdf959.jpg")
+            InputMediaPhoto("https://graph.org/file/da137290f11f94922d8e5.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1858,7 +1858,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton("🍂 Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ 🍂", url=SPRT_CHNL)
                 ],[
-                    InlineKeyboardButton("🌼 Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ🌼", url='https://t.me/Movies_King_Update')
+                    InlineKeyboardButton("🌼 Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ🌼", url=CHNL_LNK)
                 ],[
                     InlineKeyboardButton("🥀 Mᴀɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 🥀", url=CHNL_LNK)
                 ],[
@@ -1870,7 +1870,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto("https://graph.org/file/c0b9d7bc2b22042bdf959.jpg")
+                InputMediaPhoto("https://graph.org/file/da137290f11f94922d8e5.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -1908,7 +1908,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/King_Vibro")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/alfredgeeks")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
